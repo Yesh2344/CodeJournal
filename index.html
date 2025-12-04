@@ -1,0 +1,60 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeJournal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CodeJournal</h1>
+    </header>
+
+    <main>
+        <div class="controls">
+            <input type="text" id="search" placeholder="Search Snippets">
+            <button id="addSnippet">Add Snippet</button>
+        </div>
+
+        <div id="snippetList">
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Add/Edit Snippet</h2>
+                <label for="title">Title:</label>
+                <input type="text" id="snippetTitle">
+                <label for="description">Description:</label>
+                <textarea id="snippetDescription"></textarea>
+                <label for="language">Language:</label>
+                <select id="snippetLanguage">
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="cpp">C++</option>
+                    <option value="c">C</option>
+                    <option value="go">Go</option>
+                    <option value="rust">Rust</option>
+                    <option value="sql">SQL</option>
+                </select>
+                <label for="code">Code:</label>
+                <textarea id="snippetCode"></textarea>
+                <button id="saveSnippet">Save</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CodeJournal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+```json
+{
+  "name": "codejournal",
+  "version": "1.0.0",
+  "description": "A simple code snippet manager.",
+  "main": "script.js",
+  "scripts": {
+    "start": "index.html"
+  },
+  "author": "Anonymous",
+  "license": "MIT",
+  "dependencies": {}
+}
