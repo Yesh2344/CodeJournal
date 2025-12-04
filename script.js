@@ -1,3 +1,4 @@
+# Minor edit
 ```javascript
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search');
